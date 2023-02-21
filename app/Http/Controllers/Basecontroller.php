@@ -9,7 +9,7 @@ class Basecontroller extends Controller
    
    public function Home()
    {
-
+      return view('/home');
    }
    public function Services()
    {
