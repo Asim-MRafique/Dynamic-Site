@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Basecontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home',[Basecontroller::class,'Home']);
+Route::get('/services',[Basecontroller::class,'Services']);
+Route::get('/company',[Basecontroller::class,'Company']);
+Route::get('/contact',[Basecontroller::class,'Contact_us']);
+
