@@ -22,8 +22,15 @@ New Vision Template
 https://templatemo.com/tm-542-new-vision
 
 -->
+<style type="text/css"> 
+.tm-main-bg 
+{
+    background-image: url(img/new-vision-01.jpg);
+}
+</style>
 </head>
 <body>
+   
     <!-- Page Header -->
     <div class="container-fluid">
         <div class="tm-site-header">
