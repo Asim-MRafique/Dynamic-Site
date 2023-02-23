@@ -21,6 +21,6 @@ class Basecontroller extends Controller
    }
    public function Contact_us()
    {
-      return view('/contact');
+      return view('/contact_us');
    }
 }
