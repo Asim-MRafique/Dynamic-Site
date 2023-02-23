@@ -7,6 +7,7 @@
     
     <title>New Vision - Page 3</title>
     
+    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" /> <!-- https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans -->
     <link href="{{asset('theme/css/all.min.css')}}" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
     <link href="{{asset('theme/css/bootstrap.min.css')}}" rel="stylesheet" /> <!-- https://getbootstrap.com -->
