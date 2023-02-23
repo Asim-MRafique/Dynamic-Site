@@ -56,16 +56,16 @@ https://templatemo.com/tm-542-new-vision
                             <!-- Links -->
                             <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                <a class="nav-link tm-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link tm-nav-link" href="home">Home <span class="sr-only">(current)</span></a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link tm-nav-link" href="company.html">Our Company</a>
+                                <a class="nav-link tm-nav-link" href="company">Our Company</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link tm-nav-link" href="services.html">Services</a>
+                                <a class="nav-link tm-nav-link" href="services">Services</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link tm-nav-link" href="contact">Contact</a>
                               </li>
                             </ul>
                             <!-- Links -->

@@ -21,5 +21,5 @@ Route::get('/', function () {
 Route::get('/home',[Basecontroller::class,'Home']);
 Route::get('/services',[Basecontroller::class,'Services']);
 Route::get('/company',[Basecontroller::class,'Company']);
-Route::get('/contact',[Basecontroller::class,'Contact_us']);
+Route::get('/contact',[Basecontroller::class,'Contact']);
 
