@@ -1,6 +1,11 @@
 @extends('master')
 @section('content')
-   
+<style type="text/css"> 
+.tm-main-bg 
+{
+    background-image: url(img/new-vision-01.jpg);
+}
+</style>
     <!-- Page Header -->
     <div class="container-fluid">
          
@@ -148,12 +153,7 @@
             
         </main>
     </div>
-    <!-- <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/templatemo-script.js"></script> -->
-
-    <!-- <script src="{{asset('theme/js/jquery-3.4.1.min.js')}}"> </script>
+      <!-- <script src="{{asset('theme/js/jquery-3.4.1.min.js')}}"> </script>
     <script src="{{asset('theme/slick/slick.min.js')}}"> </script>
     <script src="{{asset('theme/js/bootstrap.min.js')}}"> </script>
     <script src="{{asset('theme/js/templatemo-script.js')}}"> </script> -->

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,29 +16,19 @@
 	<link href="{{asset('theme/css/templatemo-new-vision.css')}}" rel="stylesheet" />
 
 
-<!--
-
-New Vision Template
-
-https://templatemo.com/tm-542-new-vision
-
--->
-<style type="text/css"> 
-.tm-main-bg 
-{
-    background-image: url(img/new-vision-01.jpg);
-}
-</style>
 </head>
 <body>
+
 <div class="container-fluid">
     @include('header')
     @yield('content')
 </div>
+
 <script src="{{asset('theme/js/jquery-3.4.1.min.js')}}"> </script>
-    <script src="{{asset('theme/slick/slick.min.js')}}"> </script>
-    <script src="{{asset('theme/js/bootstrap.min.js')}}"> </script>
-    <script src="{{asset('theme/js/templatemo-script.js')}}"> </script>
+<script src="{{asset('theme/slick/slick.min.js')}}"> </script>
+<script src="{{asset('theme/js/bootstrap.min.js')}}"> </script>
+<script src="{{asset('theme/js/templatemo-script.js')}}"></script>
 @stack('footer-section')
+
 </body>
 </html>
