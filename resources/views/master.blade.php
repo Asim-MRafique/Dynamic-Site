@@ -15,6 +15,14 @@
 	<link href="{{asset('theme/css/bootstrap.min.css')}}" rel="stylesheet" /> <!-- https://getbootstrap.com -->
 	<link href="{{asset('theme/css/templatemo-new-vision.css')}}" rel="stylesheet" />
 
+    <style type="text/css">
+     .f-active
+     {
+        color: #000;
+        border-bottom: 5px solid #09F;
+        border-left: none;
+     };
+    </style>
 
 </head>
 <body>
@@ -28,6 +36,22 @@
 <script src="{{asset('theme/slick/slick.min.js')}}"> </script>
 <script src="{{asset('theme/js/bootstrap.min.js')}}"> </script>
 <script src="{{asset('theme/js/templatemo-script.js')}}"></script>
+
+<script>
+    jQuery(document).ready(function(){
+    
+        var pagurl=window.location.href;
+        jQuery(".navbar-collapse ul li a").each(function()
+        {
+            if(jQuery(this).attr("href")==pagurl)
+            {
+                jQuery(this).addClass("f-active");
+            }
+
+        });
+    });
+   
+</script>
 @stack('footer-section')
 
 </body>
